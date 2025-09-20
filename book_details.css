@@ -1,0 +1,76 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffaf0; /* Warm beige */
+    color: #4b3832; /* Soft brown */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6c4f3d; /* Warm coffee color */
+}
+
+/* Book Details Section */
+.book-details {
+    padding: 60px 0;
+}
+
+.book-cover {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.book-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5e3c2b; /* Dark brown */
+}
+
+.book-author {
+    font-size: 1.8rem;
+    color: #8d6e63; /* Muted warm brown */
+}
+
+.book-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #6d4c41; /* Soft chocolate */
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #d4a373; /* Warm orange */
+    border-color: #d4a373;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #b08968; /* Darker warm brown */
+    border-color: #b08968;
+}
+
+.btn-outline-secondary {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    color: #5e3c2b;
+    border-color: #5e3c2b;
+    transition: 0.3s;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #5e3c2b;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #6c4f3d;
+    color: white;
+    padding: 15px 0;
+}

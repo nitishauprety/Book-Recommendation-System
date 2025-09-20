@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('bookpic3.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #4E3B31; /* Dark brown text */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox to center the container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0; /* Remove default margin */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px; /* Padding for the container */
+    max-width: 350px; /* Reduced max width for the form */
+    width: 100%; /* Full width for smaller screens */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    color: #8B5A2B; /* Warm brown for the heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+input {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Padding for input fields */
+    border: 1px solid #8B5A2B; /* Dark brown border */
+    border-radius: 5px; /* Rounded corners for input fields */
+    margin: 0 auto; /* Center the input fields */
+    display: block; /* Make input fields block elements */
+}
+
+input:focus {
+    border-color: #A0522D; /* Lighter brown on focus */
+    outline: none; /* Remove default outline */
+}
+
+.btn-primary {
+    background-color: #8B5A2B; /* Dark brown for button */
+    color: white; /* White text for button */
+    border: none; /* Remove border */
+    padding: 10px 12px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 100%; /* Full width for button */
+}
+
+.btn-primary:hover {
+    background-color: #A0522D; /* Lighter brown on hover */
+}

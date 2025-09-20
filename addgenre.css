@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('bookpic1.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly more opaque */
+    padding: 20px; /* Reduced padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 280px; /* Reduced width */
+    text-align: left; /* Align text to the left */
+}
+
+.login-form h2 {
+    margin-bottom: 15px; /* Reduced margin */
+    color: #4E3B31; /* Dark brown */
+    text-align: center; /* Center the heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6F4C3E; /* Medium brown */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; /* Ensure both input and textarea have the same width */
+    padding: 10px 15px; /* Add padding on both sides (left and right) */
+    border: 1px solid #C2B280; /* Light brown */
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #8B5A2B; /* Darker brown on focus */
+    outline: none; /* Remove default outline */
+}
+
+.form-group textarea {
+    resize: vertical; /* Allow vertical resizing for textarea */
+    height: 100px; /* Set a fixed height for the textarea */
+}
+
+button {
+    width: 100%;
+    padding: 10px; /* Reduced padding */
+    background-color: #8B5A2B; /* Dark brown */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #A0522D; /* Lighter brown on hover */
+}
